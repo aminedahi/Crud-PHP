@@ -12,13 +12,11 @@
         echo "<li> ne le :".$srt['birthdate']."</li>";
         echo "<li> Telephone".$srt['phone']."</li>";
         echo "<li>E-mail".$srt['mail']."</li>";
-        echo '<li  ><a  class="btn btn-outline-danger" name="edit" href="edit.php?id='.$srt['id'].'">Modifier</a>
-        <a class="btn btn-outline-info" href="delete.php?id='.$srt['id'].'">supprimer</a></li></ul>';
+        echo '<li  ><a  class="btn btn-outline-danger" name="edit" href="edit.php?id='.$srt['id'].'">Edit</a>
+        <a class="btn btn-outline-info" href="delete.php?id='.$srt['id'].'">Delete</a></li></ul>';
     };
     echo'</div>';
-    echo "</div>";
-    
-    echo phpinfo();
+    echo "</div>"
 
 ?>
 <!DOCTYPE html>

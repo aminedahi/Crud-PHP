@@ -69,7 +69,7 @@ if(isset($_POST['edit'])){
             <input type="email" class="form-control" id="exampleInputPassword1"  name="mail" value="<?php echo $mail?>">
         </div>
         <div class="d-flex justify-content-end">
-       <input type="submit" name="edit" class="btn btn-info " value="modifier">
+       <input type="submit" name="edit" class="btn btn-info " value="Save">
         </div>
 </form>
     </div>

@@ -25,7 +25,8 @@
         echo "<td>".$srt['birthdate']."</td>";
         echo "<td>".$srt['phone']."</td>";
         echo "<td>".$srt['mail']."</td>";
-        echo "<td>"."<a href='profil-patient.php' class='btn btn-primary stretched-link'> "."afficher".'</a>'."</td>";
+        echo "<td>".'<a href="profil-patient.php?id='.$srt['id'].'" >'."afficher".'</a>'."</td>";
+
     };
     echo "</table>";
 
